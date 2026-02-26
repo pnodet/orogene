@@ -18,57 +18,11 @@
 Roadmap](https://img.shields.io/badge/Roadmap-Orogene%20v1.0-informational)](https://github.com/orgs/orogene/projects/2/views/1)
 [![chat](https://img.shields.io/matrix/orogene:matrix.org?label=Matrix%20chat)](https://matrix.to/#/#orogene:matrix.org)
 
-Orogene is a next-generation package manager for tools that use
-`node_modules/`, such as bundlers, CLI tools, and Node.js-based
-applications. It's fast, robust, and meant to be easily integrated into
-your workflows such that you never have to worry about whether your
-`node_modules/` is up to date. It even deduplicates your dependencies
-using a central store, and improves the experience using Copy-on-Write on
-supported filesystems, greatly reducing disk usage and speeding up
-loading.
-
-> *Note*: Orogene is still under heavy development and may not yet be
-> suitable for production use. It is missing some features that you might
-> expect. Check [the roadmap](https://github.com/orgs/orogene/projects/2)
-> to see where we're headed and [talk to
-> us](https://github.com/orogene/orogene/discussions/categories/pain-points)
-> about what you want/need!.
-
-### Getting Started
-
-You can install Orogene in various ways:
-
-npx:
-```sh
-$ npx oro ping
-```
-
-NPM:
-```sh
-$ npm install -g oro
-```
-
-Cargo:
-```sh
-$ cargo install orogene
-```
-
-Homebrew:
-```sh
-$ brew install orogene
-```
-
-You can also find install scripts, windows MSI installers, and archive
-downloads in [the latest
-release](https://github.com/orogene/orogene/releases/latest).
-
-### Usage
-
-For usage documentation, see [the Orogene
-docs](https://orogene.dev/book/), or run `$ oro help`.
-
-If you just want to do something similar to `$ npm install`, you can run
-`$ oro apply` in your project and go from there.
+Orogene is a next-generation package manager for tools that use `node_modules/`,
+such as bundlers, CLI tools, and Node.js-based applications. It's fast, robust,
+and meant to be easily integrated into your workflows such that you never have
+to worry about whether your `node_modules/` is up to date. Orogene aims to be
+the fastest and most ergonomic package manager in the space.
 
 ### Performance
 
@@ -80,15 +34,12 @@ non-trivial projects in sub-second time:
 
 For details and more benchmarks, see [the benchmarks page].
 
-### Contributing
+### Where's the code?
 
-For information and help on how to contribute to Orogene, please see [our
-contribution guide].
-
-### License
-
-Orogene and all its sub-crates are licensed under the terms of the [Apache
-2.0 License].
+Orogene has shifted to a closed source development model with paid licenses to
+make the project more sustainable and help support its developers. Releases will
+be hosted in this repository going forward and will have limited features unless
+a developer license is purchased.
 
 [Warm cache comparison]:
     https://orogene.dev/assets/benchmarks-warm-cache.png
